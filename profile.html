@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="keyword" content="portfolio, designer, sketching, painting, photoshop, html, css, JavaScript">
+  <meta name="description" content="portfolio">
+  <meta name="author" content="Apurv Tiwari">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Iceland" rel="stylesheet">
+  <title>Profile</title>
+</head>
+
+<body>
+  <!--  navbar  -->
+  <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+    <!-- navbar container  -->
+    <div class="container">
+      <!--  navbar header  -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!--  brand  -->
+        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-grain"></span></a>
+        <!--  brand ends  -->
+      </div>
+      <!--  header ends  -->
+      <!--  navbar body  -->
+      <div class="collapse navbar-collapse navbar-responsive collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">  
+          <li> 
+            <a href="./index.html">Portfolio</a> 
+          </li>
+          <li class="active"> 
+            <a href="">Profile</a> 
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--  navbar container ends  -->
+  </nav>
+  <!-- navbar ends  -->
+      
+  <div class="container-fluid text-custom-gray">
+    <!--  row 1  -->
+    <div class="row">
+      <!--  col 1  -->
+      <div class="col-sm-2">
+        <br>
+        <img src="./images/profile.jpg" width="400px;" class="pic clearfix img-circle img-responsive ">
+      </div>
+      <!--  col 1 ends  -->
+      <!--  col 2  -->
+      <div class="col-sm-10 clearfix">
+        <h2>Apurv Tiwari</h2>
+        <button class="btn btn-link" data-toggle="collapse" data-target="#interests">
+          <span class="caret caret-size text-primary"></span>
+        </button>
+        <br>
+      </div>
+      <!--  col 2 ends  -->
+    </div>
+    <!--  row 1 ends  -->
+    <!--  row 2  -->
+    <div class="row">
+      <!--  col 1  -->
+      <div class="col-sm-2"></div>
+      <!--  col 1 ends  -->
+      <!--  col 2  -->
+      <div class="col-sm-2 collapse text-custom-gray" id="interests">
+        <section class="pull-left">
+          <h3 class="text-custom-gray">Interests</h3>
+          <ul class="list-group text-gray-on-white">
+            <li class="list-group-item">Sketching</li>
+            <li class="list-group-item">Painting</li>
+            <li class="list-group-item">Photography</li>
+            <li class="list-group-item">Designing</li>
+            <li class="list-group-item">Game development</li>
+          </ul>
+          <section class="text-center">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#programming">
+              <span class="caret caret-size text-primary"></span>
+            </button>
+          </section>
+        </section>
+      </div>
+      <!--  col 2 ends  -->
+      <!--  col 3  -->
+      <div class="col-sm-8"></div>
+      <!--  col 3 ends  -->
+    </div>
+    <!--  row 2 ends  -->
+    <!--  row 3  -->
+    <div class="row">
+      <!--  col 1  -->
+      <div class="col-sm-4">
+      </div>
+      <!--  col 1 ends  -->
+      <!--  col 2  -->
+      <div class="col-sm-8 collapse" id="programming">
+        <section class="pull-left">
+          <h3 class="text-custom-gray">Programming platforms</h3>
+          <ul class="list-group text-gray-on-white">
+            <li class="list-group-item">Dot Net</li>
+            <li class="list-group-item">C/C++</li>
+            <li class="list-group-item">Basics of Core Java and J2EE</li>
+            <li class="list-group-item">HTML, CSS3, JavaScript, Bootstrap</li>
+          </ul>
+          <section class="text-center">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#softwares">
+              <span class="caret caret-size text-primary"></span>
+            </button>
+          </section>
+        </section>
+      </div>
+      <!--  col 2 ends  -->
+    </div>
+    <!--  row 3 ends  -->
+    <!-- row 4  -->
+    <div class="row">
+      <!--  col 1  -->
+      <div class="col-sm-7">
+      </div>
+      <!--  col 1 ends  -->
+      <!--  col 2  -->
+      <div class="col-sm-5">
+        <section class="collapse pull-left" id="softwares">
+          <h3 class="text-custom-gray">Softwares</h3>
+          <ul class="list-group text-gray-on-white">
+            <li class="list-group-item">Blender, Autodesk Maya</li>
+            <li class="list-group-item">Photoshop, Sai</li>
+            <li class="list-group-item">Unity</li>
+            <li class="list-group-item">Visual Studio, Eclipse, Code Blocks</li>
+          </ul>
+          <section class="text-center">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#contact">
+              <span class="caret caret-size text-primary"></span>
+            </button>
+          </section>
+        </section>
+      </div>
+      <!--  col 2 ends  -->
+    </div>
+    <!--  row 4 ends  -->
+  </div>
+
+  <footer class="container-fluid collapse" id="contact">  
+    <!--  row 1  -->
+    <div class="row">
+      <!--  col 1  -->
+      <div class="col-sm-10">
+      </div>
+      <!--  col 1 ends  -->
+      <!--  col 2  -->
+      <div class="col-sm-2">
+        <section class="pull-left">
+          <h3 class="text-custom-gray">Contact</h3>
+          <ul class="list-group text-gray-on-white">
+            <li class="list-group-item"><span class="glyphicon glyphicon-earphone"></span>&nbsp;9535249800</li>
+            <li class="list-group-item"><span class="glyphicon glyphicon-envelope"></span>&nbsp;apt@gmail.com</li>
+          </ul>
+        </section>
+      </div>
+      <!--  col 2 ends  -->
+    </div>
+    <!--  row 1 ends  -->
+    <!--  row 2  -->
+    <div class="row">
+      <hr>
+      <div class="col-xs-2 col-sm-2"></div>
+          <div class="col-xs-2 col-sm-2">
+            <a href="#" class=" center-align">
+              <img src="./images/logos/facebook.png" class="social-logos blue-logo ">
+            </a>
+          </div>
+          <div class="col-xs-2 col-sm-2">
+            <a href="#" class=" center-align">
+              <img src="./images/logos/deviant-art.png" class="social-logos green-logo ">
+            </a>
+          </div>
+          <div class="col-xs-2 col-sm-2">
+            <a href="#" class=" center-align">
+              <img src="./images/logos/pinterest.png" class="social-logos red-logo ">
+            </a>
+          </div>
+          <div class="col-xs-2 col-sm-2">
+            <a href="#" class=" center-align">
+              <img src="./images/logos/linkedin.png" class="social-logos blue-logo ">
+            </a>
+          </div>
+          <div class="col-xs-2 col-sm-2"></div>
+    </div>
+    <!--  row 2 ends  -->
+  </footer>
+</body>
+</html>
